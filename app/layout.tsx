@@ -1,16 +1,14 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Beez Pixel - Agentie Web Design",
-  description: "Site-uri moderne, SEO, hosting si branding digital"
+  title: "Beez Pixel",
+  description: "Agentie web"
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="ro">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
